@@ -1,5 +1,5 @@
 .section-hero{
-    background-image: url(asset/23df7005a95a63db3832423e7644398558e2bb78.jpg);
+    background-image: url("asset/bg-image-hero.png");
     background-size: cover;
     background-repeat: no-repeat;
     height: 100vh;
@@ -7,4 +7,11 @@
 
 .white{
     color:white;
+}
+
+.section-hera{
+    background-image: url("asset/bg-image-2.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100vh;
 }
