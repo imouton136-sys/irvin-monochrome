@@ -1,3 +1,10 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Modak&family=Nunito:ital,wght@0,200..1000;1,200..1000&family=Rubik:ital,wght@0,300..900;1,300..900&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Rubik", sans-serif;
+}
 .section-hero{
     background-image: url("asset/bg-image-hero.png");
     background-size: cover;
@@ -14,4 +21,32 @@
     background-size: cover;
     background-repeat: no-repeat;
     height: 100vh;
+}
+.flex{
+    display: flex;
+    flex-wrap: wrap;
+}
+.space-between{
+    justify-content: space-between;
+}
+.align-center{
+    align-items: center;
+}
+.gap8{
+    gap: 8px;
+}
+a{
+    text-decoration: none;
+}
+.black{
+    color: black;
+}
+.p40{
+    padding: 20px;
+}
+.w40{
+    width: 40%;
+}
+.justify-center{
+    justify-content: center;
 }
