@@ -77,3 +77,9 @@ a{
 .margin-bottom{
     margin-bottom: 10px;
 }
+.container-1200{
+    max-width: 1200px;
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+}
